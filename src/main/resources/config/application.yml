@@ -3,3 +3,5 @@ mail:
     authMethod: basic
     username: user
     password: qwerty
+
+my-properties2:

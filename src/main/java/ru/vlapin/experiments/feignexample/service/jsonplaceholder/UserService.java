@@ -10,7 +10,7 @@ import ru.vlapin.experiments.feignexample.model.jsonplaceholder.User;
 
 @FeignClient(
     name = "UserJsonPlaceHolder",
-    url = "https://jsonplaceholder.typicode.com",
+    url = "https://jsonplaceholder.typicode.com/users",
     path = "users")
 public interface UserService {
 
